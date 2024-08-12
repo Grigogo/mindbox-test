@@ -12,13 +12,13 @@ const TodoFilter: React.FC<TodoFilterProps> = ({ filter, onFilterChange }) => {
         onClick={() => onFilterChange('all')}
         className={cn('p-4 bg-indigo-50 rounded-lg', filter === 'all' && 'bg-indigo-400')}
       >
-        All
+        Все
       </button>
       <button
         onClick={() => onFilterChange('active')}
         className={cn('p-4 bg-indigo-50 rounded-lg', filter === 'active' && 'bg-indigo-400')}
       >
-        Active
+        Активные
       </button>
       <button
         onClick={() => onFilterChange('completed')}
